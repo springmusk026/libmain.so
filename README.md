@@ -12,8 +12,7 @@ The primary purpose of this project is to demonstrate how to dynamically recompi
 
 - Android development environment set up.
 - Basic understanding of JNI and C++ programming.
-- Unity native library (`libmain.so`) to be recompiled.
-- Unity game project for testing.
+- Unity game for testing.
 
 ## Usage
 
@@ -35,7 +34,7 @@ The primary purpose of this project is to demonstrate how to dynamically recompi
 
 ## Structure
 
-- `unity_jni_loader.cpp`: Contains the C++ implementation of the JNI native methods for recompiling the Unity native library.
+- `main.cpp`: Contains the C++ implementation of the JNI native methods for recompiling the Unity native library.
 - `CMakeLists.txt`: CMake configuration file for building the project.
 
 ## Contributing
